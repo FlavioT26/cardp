@@ -97,3 +97,16 @@ footer {
     color: #000000;
     transition: 0.5s;
 }
+
+@media (max-width: 400px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .card {
+        width: 300px;
+    }
+    .boton {
+        width: 250px;
+    }
+}
